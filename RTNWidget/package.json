@@ -1,0 +1,39 @@
+{
+  "name": "rtn-widget",
+  "version": "0.0.1",
+  "description": "Add numbers with Turbo Native Modules",
+  "react-native": "js/index",
+  "source": "js/index",
+  "files": [
+    "js",
+    "android",
+    "ios",
+    "rtn-widget.podspec",
+    "!android/build",
+    "!ios/build",
+    "!**/__tests__",
+    "!**/__fixtures__",
+    "!**/__mocks__"
+  ],
+  "keywords": ["react-native", "ios", "android"],
+  "repository": "https://github.com/eduard1dev/rtn-widget",
+  "author": "eduard1dev car.edu.eng@gmail.com (https://github.com/eduard1dev)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/eduard1dev/rtn-widget/issues"
+  },
+  "homepage": "https://github.com/eduard1dev/rtn-widget#readme",
+  "devDependencies": {},
+  "peerDependencies": {
+    "react": "*",
+    "react-native": "*"
+  },
+  "codegenConfig": {
+    "name": "RTNWidgetSpec",
+    "type": "modules",
+    "jsSrcsDir": "js",
+    "android": {
+      "javaPackageName": "com.rtnwidget"
+    }
+  }
+}
